@@ -1,5 +1,5 @@
 require 'ob_serv'
-require "ob_serv/sidekiq/version"
+require 'sidekiq'
 
 module ObServ
   class SidekiqPublisher
