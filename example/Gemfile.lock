@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.0.6)
+    concurrent-ruby (1.0.5)
+    connection_pool (2.2.1)
+    observ (0.1.4)
+    observ-sidekiq (0.1.2)
+      observ
+      sidekiq
+    rack (2.0.1)
+    rack-protection (1.5.3)
+      rack
+    redis (3.3.3)
+    sidekiq (4.2.10)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      rack-protection (>= 1.5.0)
+      redis (~> 3.2, >= 3.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  observ
+  observ-sidekiq
+  sidekiq
+
+BUNDLED WITH
+   1.14.6
