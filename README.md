@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add above line to initializer 
+
+```
+ObServ::SidekiqPublisher.register
+```
 
 ## Development
 

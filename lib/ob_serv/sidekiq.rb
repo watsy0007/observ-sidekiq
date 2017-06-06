@@ -20,4 +20,3 @@ module ObServ
   end
 end
 
-ObServ::SidekiqPublisher.register
